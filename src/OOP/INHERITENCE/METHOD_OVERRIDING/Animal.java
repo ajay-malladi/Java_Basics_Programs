@@ -1,0 +1,8 @@
+package OOP.INHERITENCE.METHOD_OVERRIDING;
+
+public class Animal {
+
+    void move(){
+        System.out.println("Animal is runnnig ");
+    }
+}
