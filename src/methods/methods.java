@@ -6,6 +6,7 @@ public class methods {
     public static void main(String[] args) {
 
         double result =add(1,2);
+
         System.out.println(result);
         boolean check = ageCheck(9);
         if (check) {

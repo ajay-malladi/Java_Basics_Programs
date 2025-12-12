@@ -19,6 +19,7 @@ public class searchingElementArray {
             if (girl[i].equals(find)){  // for  strings we should use equals methods
                 System.out.printf(" %s  girl found \n",girl[i]);
                 isFound = true;
+                //System.out.println(i);  // to know how many iterations it needs  to find
                 break;
 
             }

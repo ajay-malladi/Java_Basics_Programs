@@ -8,18 +8,20 @@ public class localAndClassVariables {
         // Local Variables : these are method variables ,can be accessed in the respective methods.
         // Class Variables : Class Variables , these can used in every method , each method has a copy of the class variables.
 
-        int x =1; //Local
-        System.out.println("main "+ x);
+        int x = 1; //Local
+        System.out.println("main method " + x);
         doSome();
         doIt();
 
     }
-    static void doSome(){
-        int x =2; //local , we can create variable with same name in the different methods
-        System.out.println("doSome "+ x);
+
+    static void doSome() {
+        int x = 2; //local , we can create variable with same name in the different methods
+        System.out.println("doSome " + x);
     }
-    static void doIt(){
-        System.out.println("doIt " +x); // this x is  class variable
+
+    static void doIt() {
+        System.out.println("doIt " + x); // this x is  class variable
     }
 }
 
